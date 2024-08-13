@@ -3,7 +3,7 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
-import { div } from "three/webgpu";
+
 
 function Approach() {
   return (
@@ -17,9 +17,9 @@ My <span className="text-purple">approach</span>
         <Card
          title="Planning & Strategy" 
         icon={<AceternityIcon order="Phase 1" />}
-        description = "We'll collaborate to map out your website's goals, target audience, 
+        description = {`We'll collaborate to map out your website's goals, target audience, 
           and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements"
+          navigation, and content requirements `}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
