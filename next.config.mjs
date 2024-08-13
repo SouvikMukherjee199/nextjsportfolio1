@@ -2,7 +2,7 @@ import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     typescript:{
-        output:"export",
+        // output:"export",
         ignoreBuildErrors : true
     }
 };
